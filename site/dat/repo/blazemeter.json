@@ -80,6 +80,16 @@
         "depends": [
           "jmeter-http"
         ]
+      },
+      "0.2": {
+        "changes": "Fixed class name clash with Debugger plugin",
+        "downloadUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/releases/download/jmeter-parallel-0.2/jmeter-parallel-0.2.jar",
+        "libs": {
+          "jmeter-plugins-cmn-jmeter": "https://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-cmn-jmeter/0.4/jmeter-plugins-cmn-jmeter-0.4.jar"
+        },
+        "depends": [
+          "jmeter-http"
+        ]
       }
     }
   },
@@ -230,7 +240,7 @@
     "id": "bzm-hls",
     "name": "HLS Sampler",
     "description": "HLS protocol sampler, enabling testing for streaming applications",
-    "screenshotUrl": "",
+    "screenshotUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/raw/master/hls/HLSPluginView.png",
     "helpUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/hls/README.md",
     "vendor": "BlazeMeter",
     "markerClass": "com.blazemeter.jmeter.hls.logic.HlsSampler",
@@ -244,6 +254,25 @@
         "depends": [
           "jmeter-http"
         ]
+      },
+      "1.1": {
+        "downloadUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/releases/download/jmeter-hls-1.1/jmeter-hls-1.1.jar",
+        "libs": {
+          "mqtt-websocket-java": "https://github.com/inventit/mqtt-websocket-java/releases/download/1.0.1/mqtt-websocket-java-1.0.1.jar"
+        },
+        "depends": [
+          "jmeter-http"
+        ]
+      },
+      "1.2": {
+        "changes": "Some bugs fixed",
+        "downloadUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/releases/download/jmeter-hls-1.2/jmeter-hls-1.2.jar",
+        "libs": {
+          "mqtt-websocket-java": "https://github.com/inventit/mqtt-websocket-java/releases/download/1.0.1/mqtt-websocket-java-1.0.1.jar"
+        },
+        "depends": [
+          "jmeter-http"
+        ]
       }
     }
   },
@@ -252,7 +281,7 @@
     "name": "HTTP/2 Sampler",
     "description": "HTTP/2 protocol sampler",
     "helpUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md",
-    "screenshotUrl": "",
+    "screenshotUrl": "https://github.com/Blazemeter/jmeter-bzm-plugins/raw/master/http2/http2Sampler.png",
     "vendor": "BlazeMeter",
     "markerClass": "com.blazemeter.jmeter.http2.sampler.HTTP2Request",
     "componentClasses": [
